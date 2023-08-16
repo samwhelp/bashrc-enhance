@@ -13,6 +13,39 @@
 ## * https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select
 ##
 
+
+##
+## ## Usage
+##
+## ### fzf
+##
+## ``` sh
+## bashrc-profile-select
+## ```
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=fzf bashrc-profile-select
+## ```
+##
+## ### dmenu
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=dmenu bashrc-profile-select
+## ```
+##
+## ### rofi
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=rofi bashrc-profile-select
+## ```
+##
+## ### jgmenu
+##
+## ``` sh
+## THE_DEFAULT_MENU_FACTORY=jgmenu bashrc-profile-select
+## ```
+##
+
 ##
 ### Tail: Note
 ################################################################################
@@ -59,6 +92,7 @@ menu_content () {
 }
 
 menu_factory () {
+
 	local agent
 
 	#agent="fzf"
@@ -71,26 +105,37 @@ menu_factory () {
 	local delegate="menu_factory_by_${agent}"
 
 	"${delegate}"
+
 }
 
 menu_factory_by_fzf () {
+
 	fzf
+
 }
 
 menu_factory_by_dmenu () {
+
 	dmenu -b -l 10
+
 }
 
 menu_factory_by_rofi () {
+
 	rofi -dmenu
+
 }
 
 menu_factory_by_jgmenu () {
+
 	jgmenu --simple --center --no-spawn
+
 }
 
 menu_start () {
+
 	 menu_content | menu_factory
+
 }
 
 ##
@@ -191,7 +236,7 @@ sys_bashrc_profile_set () {
 
 	mv "${tmp_source_dir_path}" "${target_dir_path}"
 
-	#rm -rf "${tmp_target_dir_path}"
+	rm -rf "${tmp_target_dir_path}"
 
 }
 
