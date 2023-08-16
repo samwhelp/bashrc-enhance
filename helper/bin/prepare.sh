@@ -33,6 +33,10 @@ mod_prepare () {
 
 	echo 'mod_prepare'
 
+	mod_main_signal_bind
+
+	sleep 10;
+
 }
 
 ##

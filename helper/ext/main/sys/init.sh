@@ -4,6 +4,12 @@
 ### Head: Main / Sys / Init
 ##
 
+##
+## Load / Main / Sys / signal
+##
+
+. "${THE_MAIN_EXT_MAIN_SYS_DIR_PATH}/signal.sh"
+
 
 ##
 ### Tail: Main / Sys / Init
