@@ -4,6 +4,12 @@
 ### Head: Main / Util / Init
 ##
 
+##
+## Load / Main / Util / command
+##
+
+. "${THE_MAIN_EXT_MAIN_UTIL_DIR_PATH}/command.sh"
+
 
 ##
 ### Tail: Main / Util / Init
