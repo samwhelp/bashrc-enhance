@@ -36,6 +36,14 @@ THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../../helper/ext"
 
 mod_bashrc_enhance_bash_it_install () {
 
+	sys_bashrc_enhance_bash_it_install
+
+	sys_bashrc_enhance_bash_it_install_theme
+
+}
+
+sys_bashrc_enhance_bash_it_install () {
+
 	#local tmp_name="tmp.$$.$RANDOM"
 	#local tmp_name="$(date '+%Y-%m-%d_%s')"
 	local tmp_name="$(date '+%Y-%m-%d_%H-%M-%S')"
@@ -75,6 +83,19 @@ mod_bashrc_enhance_bash_it_install () {
 
 
 }
+
+sys_bashrc_enhance_bash_it_install_theme () {
+
+	local bash_it_install_target_dir_path="${HOME}/.bash_it"
+	local bash_it_target_themes_dir_path="${bash_it_install_target_dir_path}/themes/nwinkler-fix"
+	local bash_it_source_themes_dir_path="${THE_MAIN_SHARE_DIR_PATH}/vendor/bash-it/themes/nwinkler-fix"
+
+
+	cp -rvf "${bash_it_source_themes_dir_path}/." "${bash_it_target_themes_dir_path}"
+
+}
+
+
 
 ##
 ### Tail: Model / bashrc_enhance_bash_it_install
