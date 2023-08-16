@@ -1,4 +1,4 @@
 
 
-# bashrc-enhance / port
+# bashrc / profile / basic
 
