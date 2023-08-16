@@ -5,7 +5,7 @@
 ##
 
 ##
-## Load / Main / Util / command
+## Load / Main / Util / Command
 ##
 
 . "${THE_MAIN_EXT_MAIN_UTIL_DIR_PATH}/command.sh"
