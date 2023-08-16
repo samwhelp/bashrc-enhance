@@ -56,9 +56,6 @@ __prepend_path__ () {
 __prepend_path__ \
 	"${HOME}/bin" \
 	"${HOME}/.local/bin" \
-	"${__BASHRC_ENHANCE_DIR_PATH__}/helper/bin"\
-	"${__BASHRC_ENHANCE_DIR_PATH__}/tool/bin" \
-	"${__BASHRC_ENHANCE_DIR_PATH__}/port/helper/bin" \
 	"${__BASHRC_ENHANCE_DIR_PATH__}/port/tool/bin"
 
 
