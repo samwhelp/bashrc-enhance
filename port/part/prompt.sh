@@ -38,8 +38,14 @@ __prompt_set__ () {
 	local second_line_start_sign="│"
 	local last_line_start_sign="│"
 
-	## user@host [21:47:39] (~)
-	PS1="${THE_COLOR_GREEN}${first_line_start_sign}${THE_COLOR_RESET_COLOR}\n${THE_COLOR_GREEN}${second_line_start_sign}${THE_COLOR_RESET_COLOR} ${THE_COLOR_GREEN}\u${THE_COLOR_RESET_COLOR}@${THE_COLOR_RED}\H${THE_COLOR_RESET_COLOR} [${THE_COLOR_BLUE}\t${THE_COLOR_RESET_COLOR}] (${THE_COLOR_GREEN}\w${THE_COLOR_RESET_COLOR}) ${THE_COLOR_RESET_COLOR}\n${THE_COLOR_GREEN}${last_line_start_sign}${THE_COLOR_RESET_COLOR} "
+
+	##
+	## ┌─────
+	## │ user@host [21:47:39] (~)
+	## │
+	##
+
+	PS1="${__THE_COLOR_GREEN__}${first_line_start_sign}${__THE_COLOR_RESET_COLOR__}\n${__THE_COLOR_GREEN__}${second_line_start_sign}${__THE_COLOR_RESET_COLOR__} ${__THE_COLOR_GREEN__}\u${__THE_COLOR_RESET_COLOR__}@${__THE_COLOR_RED__}\H${__THE_COLOR_RESET_COLOR__} [${__THE_COLOR_BLUE__}\t${__THE_COLOR_RESET_COLOR__}] (${__THE_COLOR_GREEN__}\w${__THE_COLOR_RESET_COLOR__}) ${__THE_COLOR_RESET_COLOR__}\n${__THE_COLOR_GREEN__}${last_line_start_sign}${__THE_COLOR_RESET_COLOR__} "
 	PS2='> '
 	PS4='+ '
 
