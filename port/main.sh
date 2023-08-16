@@ -154,14 +154,36 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 ##
 
 ##
-## Load ~/.config/bashrc-enhance/port/part/bash_it_profile.sh
+## Load ~/.config/bashrc-enhance/port/vendor/bash-it.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/bash_it_profile.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/bash_it_profile.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/bash-it.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/bash-it.sh"
 
 
 ##
 ### Tail: bash-it
+################################################################################
+
+
+################################################################################
+### Head: starship
+##
+
+##
+## * https://starship.rs/
+## * https://github.com/starship/starship
+##
+
+##
+## Load ~/.config/bashrc-enhance/port/vendor/.starship.sh
+##
+
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/starship.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/starship.sh"
+
+
+
+##
+### Tail: starship
 ################################################################################
 
 
