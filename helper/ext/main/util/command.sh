@@ -1,7 +1,7 @@
 
 
 ################################################################################
-### Head: Util / Command
+### Head: Main / Util / Command
 ##
 
 is_function_exist () {
@@ -33,12 +33,12 @@ is_command_exist () {
 }
 
 ##
-### Tail: Util / Command
+### Tail: Main / Util / Command
 ################################################################################
 
 
 ################################################################################
-### Head: Util / Process
+### Head: Main / Util / Process
 ##
 
 util_stop_all ()  {
@@ -78,12 +78,12 @@ util_stop_all_by_killall () {
 }
 
 ##
-### Tail: Util / Process
+### Tail: Main / Util / Process
 ################################################################################
 
 
 ################################################################################
-### Head: Util / self_actions
+### Head: Main / Util / self_actions
 ##
 
 util_self_actions () {
@@ -93,5 +93,5 @@ util_self_actions () {
 }
 
 ##
-### Tail: Util / self_actions
+### Tail: Main / Util / self_actions
 ################################################################################

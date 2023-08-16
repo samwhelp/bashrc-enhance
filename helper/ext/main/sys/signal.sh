@@ -1,7 +1,7 @@
 
 
 ################################################################################
-### Head: Signal
+### Head: Main / Sys / Signal
 ##
 
 sys_exit_on_signal_interrupted () {
@@ -28,5 +28,5 @@ sys_exit_on_signal_terminated () {
 }
 
 ##
-### Tail: Signal
+### Tail: Main / Sys / Signal
 ################################################################################
