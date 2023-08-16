@@ -109,6 +109,30 @@ base_var_init () {
 
 
 	##
+	## Main Path / Ext / Main
+	##
+
+	THE_MAIN_EXT_MAIN_DIR_NAME="main"
+	THE_MAIN_EXT_MAIN_DIR_PATH="${THE_MAIN_EXT_DIR_PATH}/${THE_MAIN_EXT_MAIN_DIR_NAME}"
+
+
+	##
+	## Main Path / Ext / Main / Sub
+	##
+
+	THE_MAIN_EXT_MAIN_UTIL_DIR_NAME="util"
+	THE_MAIN_EXT_MAIN_UTIL_DIR_PATH="${THE_MAIN_EXT_MAIN_DIR_PATH}/${THE_MAIN_EXT_MAIN_UTIL_DIR_NAME}"
+
+	THE_MAIN_EXT_MAIN_SYS_DIR_NAME="sys"
+	THE_MAIN_EXT_MAIN_SYS_DIR_PATH="${THE_MAIN_EXT_MAIN_DIR_PATH}/${THE_MAIN_EXT_MAIN_SYS_DIR_NAME}"
+
+	THE_MAIN_EXT_MAIN_MOD_DIR_NAME="mod"
+	THE_MAIN_EXT_MAIN_MOD_DIR_PATH="${THE_MAIN_EXT_MAIN_DIR_PATH}/${THE_MAIN_EXT_MAIN_MOD_DIR_NAME}"
+
+
+
+
+	##
 	## Main Path / Ext / Master
 	##
 
@@ -234,6 +258,38 @@ base_var_dump () {
 
 	util_debug_echo "THE_MAIN_SHARE_DIR_NAME=${THE_MAIN_SHARE_DIR_NAME}"
 	util_debug_echo "THE_MAIN_SHARE_DIR_PATH=${THE_MAIN_SHARE_DIR_PATH}"
+	util_debug_echo
+
+
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## Main Path / Ext / Main"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "THE_MAIN_EXT_MAIN_DIR_NAME=${THE_MAIN_EXT_MAIN_DIR_NAME}"
+	util_debug_echo "THE_MAIN_EXT_MAIN_DIR_PATH=${THE_MAIN_EXT_MAIN_DIR_PATH}"
+	util_debug_echo
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## Main Path / Ext / Main / Sub"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "THE_MAIN_EXT_MAIN_UTIL_DIR_NAME=${THE_MAIN_EXT_MAIN_UTIL_DIR_NAME}"
+	util_debug_echo "THE_MAIN_EXT_MAIN_UTIL_DIR_PATH=${THE_MAIN_EXT_MAIN_UTIL_DIR_PATH}"
+	util_debug_echo
+
+	util_debug_echo "THE_MAIN_EXT_MAIN_SYS_DIR_NAME=${THE_MAIN_EXT_MAIN_SYS_DIR_NAME}"
+	util_debug_echo "THE_MAIN_EXT_MAIN_SYS_DIR_PATH=${THE_MAIN_EXT_MAIN_SYS_DIR_PATH}"
+	util_debug_echo
+
+	util_debug_echo "THE_MAIN_EXT_MAIN_MOD_DIR_NAME=${THE_MAIN_EXT_MAIN_MOD_DIR_NAME}"
+	util_debug_echo "THE_MAIN_EXT_MAIN_MOD_DIR_PATH=${THE_MAIN_EXT_MAIN_MOD_DIR_PATH}"
 	util_debug_echo
 
 
