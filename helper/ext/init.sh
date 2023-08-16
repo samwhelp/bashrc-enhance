@@ -4,7 +4,12 @@
 ### Head: Base / Init
 ##
 
+##
+## ## Link
+##
 ## * https://github.com/samwhelp/skel-project-plan
+##
+
 
 ## set -e ##
 
@@ -13,7 +18,6 @@
 base_var_init
 
 base_var_dump
-
 
 
 ##

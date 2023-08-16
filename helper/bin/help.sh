@@ -5,7 +5,7 @@
 ### Head: Init
 ##
 
-THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "${0}")" ; pwd)"
 THE_INIT_DIR_PATH="${THE_BASE_DIR_PATH}/../ext"
 . "${THE_INIT_DIR_PATH}/init.sh"
 
