@@ -49,7 +49,9 @@ mod_prepare () {
 ##
 
 __main__ () {
+
 	mod_prepare "${@}"
+
 }
 
 __main__ "${@}"
