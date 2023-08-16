@@ -1,0 +1,4 @@
+
+
+# bashrc / profile / archlinux
+
