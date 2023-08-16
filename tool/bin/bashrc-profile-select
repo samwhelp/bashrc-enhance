@@ -193,7 +193,7 @@ mod_menu_applet_start () {
 
 
 ################################################################################
-### Head: Model / bashrc_profile_selec
+### Head: Model / bashrc_profile_select
 ##
 
 mod_bashrc_profile_set () {
@@ -241,27 +241,25 @@ sys_bashrc_profile_set () {
 }
 
 ##
-### Tail: Model / bashrc_profile_selec
+### Tail: Model / bashrc_profile_select
 ################################################################################
 
 
 ################################################################################
-### Head: Model / bashrc_profile_selec
+### Head: Main / bashrc_profile_select
 ##
 
 mod_bashrc_profile_select () {
-
 
 	mod_main_signal_bind
 
 	mod_menu_applet_start
 
-
-
+	return 0
 }
 
 ##
-### Tail: Model / bashrc_profile_selec
+### Tail: Main / bashrc_profile_select
 ################################################################################
 
 
