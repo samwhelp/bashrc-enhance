@@ -215,7 +215,9 @@ sys_bashrc_profile_set () {
 
 
 	##local tmp_dir_path="${THE_MAIN_TMP_DIR_PATH}"
-	local tmp_dir_path="${HOME}/.cache/bashrc-profile/backup"
+	local tmp_dir_path="${HOME}/.cache/bashrc-profile/backup/port"
+
+	mkdir -p "${tmp_dir_path}"
 
 
 	local tmp_source_dir_path="${tmp_dir_path}/port"
@@ -224,17 +226,20 @@ sys_bashrc_profile_set () {
 	local target_dir_path="${2}"
 
 
-
-
-	mkdir -p "${tmp_dir_path}"
-
 	mkdir -p "${tmp_source_dir_path}"
 
 	cp -rf "${source_dir_path}/." "${tmp_source_dir_path}"
 
-	mv "${target_dir_path}" "${tmp_target_dir_path}"
 
-	mv "${tmp_source_dir_path}" "${target_dir_path}"
+	if [ -d "${target_dir_path}" ]; then
+		mv "${target_dir_path}" "${tmp_target_dir_path}"
+	fi
+
+
+	if [ -d "${tmp_source_dir_path}" ]; then
+		mv "${tmp_source_dir_path}" "${target_dir_path}"
+	fi
+
 
 	rm -rf "${tmp_target_dir_path}"
 
