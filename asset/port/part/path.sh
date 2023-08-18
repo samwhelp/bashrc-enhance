@@ -52,10 +52,9 @@ __prepend_path__ () {
 ## Prepend PATH
 ##
 
-#__prepend_path__ ~/bin ~/.local/bin
+#__prepend_path__ ~/.config/bashrc-enhance/tool/bin/ ~/.config/bashrc-enhance/asset/port/tool/bin
+
 __prepend_path__ \
-	"${HOME}/bin" \
-	"${HOME}/.local/bin" \
 	"${__BASHRC_ENHANCE_DIR_PATH__}/tool/bin" \
 	"${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/tool/bin"
 
