@@ -160,6 +160,13 @@ base_var_init () {
 
 
 	##
+	############################################################################
+	##
+
+
+
+
+	##
 	## Master Path
 	##
 
@@ -283,7 +290,7 @@ base_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "## Main Path / Ext / Main"
+	util_debug_echo "## ## Main Path / Ext / Main"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -294,7 +301,7 @@ base_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "## Main Path / Ext / Main / Sub"
+	util_debug_echo "## ## Main Path / Ext / Main / Sub"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -315,7 +322,7 @@ base_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "## Main Path / Ext / Master"
+	util_debug_echo "## ## Main Path / Ext / Master"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -326,7 +333,7 @@ base_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "## Main Path / Ext / Master / Sub"
+	util_debug_echo "## ## Main Path / Ext / Master / Sub"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -341,6 +348,13 @@ base_var_dump () {
 	util_debug_echo "THE_MAIN_EXT_MASTER_MOD_DIR_NAME=${THE_MAIN_EXT_MASTER_MOD_DIR_NAME}"
 	util_debug_echo "THE_MAIN_EXT_MASTER_MOD_DIR_PATH=${THE_MAIN_EXT_MASTER_MOD_DIR_PATH}"
 	util_debug_echo
+
+
+
+
+	##
+	############################################################################
+	##
 
 
 
