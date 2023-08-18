@@ -64,7 +64,7 @@ __BASHRC_ENHANCE_DIR_PATH__="${__BASHRC_ENHANCE_DIR_PATH__:=${HOME}/.config/bash
 ## Load ~/.config/bashrc-enhance/port/part/color.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/color.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/color.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/color.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/color.sh"
 
 
 ##
@@ -82,7 +82,7 @@ __BASHRC_ENHANCE_DIR_PATH__="${__BASHRC_ENHANCE_DIR_PATH__:=${HOME}/.config/bash
 ## Load ~/.config/bashrc-enhance/port/part/path.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/path.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/path.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/path.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/path.sh"
 
 
 ##
@@ -102,7 +102,7 @@ alias ls='ls --color=auto'
 ## Load ~/.config/bashrc-enhance/port/part/alias.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/alias.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/alias.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/alias.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/alias.sh"
 
 
 ##
@@ -137,7 +137,7 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 ## Load ~/.config/bashrc-enhance/port/part/prompt
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/prompt.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/prompt.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/prompt.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/prompt.sh"
 
 
 ##
@@ -157,7 +157,7 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 ## Load ~/.config/bashrc-enhance/port/vendor/bash-it.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/bash-it.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/bash-it.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/vendor/bash-it.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/vendor/bash-it.sh"
 
 
 ##
@@ -178,7 +178,7 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 ## Load ~/.config/bashrc-enhance/port/vendor/.starship.sh
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/starship.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/vendor/starship.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/vendor/starship.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/vendor/starship.sh"
 
 
 
@@ -199,7 +199,7 @@ PS1='┌─────\n│ \u@\H [\t] (\w)\n│ '
 ## Load ~/.config/bashrc-enhance/port/part/fzf.bash
 ##
 
-[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/fzf.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/port/part/fzf.sh"
+[ -f "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/fzf.sh" ] && . "${__BASHRC_ENHANCE_DIR_PATH__}/asset/port/part/fzf.sh"
 
 
 ##
