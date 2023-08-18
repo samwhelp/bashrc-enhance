@@ -69,7 +69,7 @@ is_not_debug () {
 base_var_init () {
 
 	##
-	## Base Path
+	##  ## Base Path
 	##
 
 	THE_INIT_DIR_PATH="$(find_dir_path "${THE_INIT_DIR_PATH}/.")"
@@ -79,7 +79,7 @@ base_var_init () {
 
 
 	##
-	## Main Path
+	## ## Main Path
 	##
 
 	THE_MAIN_DIR_NAME="helper"
